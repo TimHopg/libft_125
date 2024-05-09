@@ -3,21 +3,19 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strdup.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: thopgood <thopgood@student.42.fr>          +#+  +:+       +#+        */
+/*   By: thopgood <thopgood@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/15 16:55:45 by thopgood          #+#    #+#             */
-/*   Updated: 2024/04/10 14:30:56 by thopgood         ###   ########.fr       */
+/*   Updated: 2024/05/07 22:55:52 by thopgood         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-/*
-
-String duplication. Allocates memory using malloc for new string and copies
-	contents of original string incl. null termination.
-
-*/
-
 #include "libft.h"
+
+/*
+ * String duplication. Allocates memory using malloc for new string and copies
+ 	contents of original string incl. null termination.
+*/
 
 char	*ft_strdup(const char *s)
 {
