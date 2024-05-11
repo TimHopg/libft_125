@@ -3,23 +3,21 @@
 /*                                                        :::      ::::::::   */
 /*   ft_substr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: thopgood <thopgood@student.42.fr>          +#+  +:+       +#+        */
+/*   By: thopgood <thopgood@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/15 11:32:39 by thopgood          #+#    #+#             */
-/*   Updated: 2024/04/14 12:23:11 by thopgood         ###   ########.fr       */
+/*   Updated: 2024/05/07 22:55:08 by thopgood         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-/*
-
-Substring
-Allocates with malloc and returns a substring from string s.
-Substring begins at index start and is of max size len. 
-Returns pointer to substring or NULL if failed.
-
-*/
-
 #include "libft.h"
+
+/*
+ * Substring
+ * Allocates with malloc and returns a substring from string s.
+ * Substring begins at index start and is of max size len. 
+ * Returns pointer to substring or NULL if failed.
+*/
 
 char	*ft_substr(char const *s, unsigned int start, size_t len)
 {

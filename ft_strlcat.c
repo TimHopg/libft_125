@@ -3,24 +3,24 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlcat.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: thopgood <thopgood@student.42.fr>          +#+  +:+       +#+        */
+/*   By: thopgood <thopgood@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/14 16:11:03 by thopgood          #+#    #+#             */
-/*   Updated: 2024/04/10 13:26:08 by thopgood         ###   ########.fr       */
+/*   Updated: 2024/05/07 22:01:38 by thopgood         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "libft.h"
+
+
 /*
-
-Appends at most dstsize - 1 characters of src to dst and null terminates,
-	truncating if necessary.
-If dst is longer than dstsize, dst will not be changed.
-strlcat returns the length of the string that would have been created if there
-	was enough size. If return >= size truncation has occurred.
-
+ * Appends at most dstsize - 1 characters of src to dst and null terminates,
+ 	truncating if necessary.
+ * If dst is longer than dstsize, dst will not be changed.
+ * strlcat returns the length of the string that would have been created if
+	there was enough size. If return >= size truncation has occurred.
 */
 
-#include "libft.h"
 
 size_t	ft_strlcat(char *dst, const char *src, size_t dstsize)
 {
