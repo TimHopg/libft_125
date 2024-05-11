@@ -3,22 +3,20 @@
 /*                                                        :::      ::::::::   */
 /*   ft_calloc.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: thopgood <thopgood@student.42.fr>          +#+  +:+       +#+        */
+/*   By: thopgood <thopgood@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/18 11:57:52 by thopgood          #+#    #+#             */
-/*   Updated: 2024/04/18 18:20:57 by thopgood         ###   ########.fr       */
+/*   Updated: 2024/05/07 16:53:22 by thopgood         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-/*
-
-Contiguous allocation. Allocates and initialises memory, set to zero,
-	for an array of elements (nitems) of 'size' size.
-Returns a pointer to the allocated memory.
-
-*/
-
 #include "libft.h"
+
+/*
+ * Contiguous allocation. Allocates and initialises memory, set to zero,
+ 	for an array of elements (nitems) of 'size' size.
+ * Returns a pointer to the allocated memory.
+*/
 
 void	*ft_calloc(size_t nitems, size_t size)
 {
